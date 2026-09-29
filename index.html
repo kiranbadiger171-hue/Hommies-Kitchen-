@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#8b2f16">
+<title>Hommies Kitchen | Fresh Vegetarian Food</title>
+<meta name="description" content="Hommies Kitchen - fresh vegetarian food in Nekar Nagar, Hubli. Order by WhatsApp or Zomato.">
+<style>
+:root{--primary:#8b2f16;--accent:#f4a62a;--cream:#fff8ed;--dark:#241812;--muted:#6f625b;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--dark);line-height:1.6}
+header{position:sticky;top:0;z-index:10;background:rgba(255,248,237,.96);backdrop-filter:blur(8px);border-bottom:1px solid #eadbca}
+.nav{max-width:1100px;margin:auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:23px;font-weight:800;color:var(--primary)} .logo span{color:var(--accent)}
+nav a{margin-left:18px;color:var(--dark);text-decoration:none;font-weight:700;font-size:14px}
+.hero{background:linear-gradient(135deg,#7b2813,#a84b1e);color:#fff;padding:76px 20px 70px;text-align:center}
+.hero h1{font-size:clamp(40px,8vw,72px);line-height:1.02;margin-bottom:14px}
+.hero h1 .k{color:#ffd166}.hero p{font-size:19px;opacity:.94;max-width:650px;margin:0 auto 28px}
+.buttons{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 20px;border-radius:999px;text-decoration:none;font-weight:800}
+.btn.whatsapp{background:#25d366;color:#fff}.btn.zomato{background:#fff;color:var(--primary)}.btn.outline{border:2px solid #fff;color:#fff}
+section{max-width:1100px;margin:auto;padding:58px 20px}
+.section-title{text-align:center;margin-bottom:30px}.section-title h2{font-size:34px;color:var(--primary)}.section-title p{color:var(--muted)}
+.categories{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border:1px solid #eadbca;border-radius:18px;padding:22px;box-shadow:0 8px 24px rgba(80,35,15,.06)}
+.card h3{color:var(--primary);font-size:22px;margin-bottom:12px}
+.item{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px dashed #dfcdb9}
+.item:last-child{border-bottom:0}.price{font-weight:800;color:var(--primary);white-space:nowrap}
+.note{text-align:center;color:var(--muted);font-size:13px;margin-top:18px}
+.about{background:#fff}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.about-box{background:var(--cream);padding:30px;border-radius:22px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:22px}.feature{padding:18px;border-radius:15px;background:#fff;border:1px solid #eadbca;text-align:center}.feature strong{display:block;color:var(--primary)}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-card{background:#fff;padding:25px;border-radius:18px;border:1px solid #eadbca}.contact-card h3{color:var(--primary);margin-bottom:8px}
+footer{background:#241812;color:#fff;text-align:center;padding:30px 20px}footer p{opacity:.8;font-size:14px}
+.float{position:fixed;right:18px;bottom:18px;background:#25d366;color:white;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:27px;box-shadow:0 8px 25px #0003;z-index:20}
+@media(max-width:760px){
+nav{display:none}.hero{padding:60px 18px}.categories,.about-grid,.contact,.features{grid-template-columns:1fr}
+section{padding:45px 16px}.card{padding:18px}.hero p{font-size:17px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="logo">Hommies <span>Kitchen</span> ❤️</div>
+    <nav><a href="#menu">Menu</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <h1>Hommies <span class="k">K</span>itchen ❤️</h1>
+  <p>Fresh, tasty & homestyle vegetarian food in Hubli. Made with care, served with love.</p>
+  <div class="buttons">
+    <a class="btn whatsapp" href="https://wa.me/918951414917?text=Hi%20Hommies%20Kitchen%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank">💬 Order on WhatsApp</a>
+    <a class="btn zomato" href="#" onclick="alert('Add your Hommies Kitchen Zomato link here.');return false;">🛵 Order on Zomato</a>
+    <a class="btn outline" href="#menu">🍛 View Menu</a>
+  </div>
+</section>
+
+<section id="menu">
+  <div class="section-title"><h2>Our Menu</h2><p>Vegetarian favourites for every time of the day</p></div>
+  <div class="categories">
+    <div class="card"><h3>🍚 Tiffins</h3>
+      <div class="item"><span>Lemon Rice</span><span class="price">₹—</span></div>
+      <div class="item"><span>Puliyogare</span><span class="price">₹—</span></div>
+      <div class="item"><span>Poha</span><span class="price">₹—</span></div>
+      <div class="item"><span>Jeera Rice</span><span class="price">₹—</span></div>
+      <div class="item"><span>Tomato Rice</span><span class="price">₹—</span></div>
+      <div class="item"><span>Veg Palav</span><span class="price">₹—</span></div>
+      <div class="item"><span>Uppittu</span><span class="price">₹—</span></div>
+      <div class="item"><span>Shavige Uppittu</span><span class="price">₹—</span></div>
+      <div class="item"><span>Veg Fried Rice</span><span class="price">₹—</span></div>
+    </div>
+    <div class="card"><h3>🍛 Meals</h3>
+      <div class="item"><span>White Rice Sambar</span><span class="price">₹—</span></div>
+      <div class="item"><span>Jolada Rotti Meals</span><span class="price">₹—</span></div>
+      <div class="item"><span>Chapati Meals</span><span class="price">₹—</span></div>
+      <div class="item"><span>Ragi Mudde Meals</span><span class="price">₹—</span></div>
+    </div>
+    <div class="card"><h3>🥤 Snacks</h3>
+      <div class="item"><span>Veg Maggi</span><span class="price">₹—</span></div>
+      <div class="item"><span>Girmit</span><span class="price">₹—</span></div>
+      <div class="item"><span>Red Girmit</span><span class="price">₹—</span></div>
+      <div class="item"><span>Mirchi</span><span class="price">₹—</span></div>
+      <div class="item"><span>Soup</span><span class="price">₹—</span></div>
+      <div class="item"><span>Popcorn</span><span class="price">₹—</span></div>
+      <div class="item"><span>Fruit Salad</span><span class="price">₹—</span></div>
+      <div class="item"><span>Custard Fruit Salad</span><span class="price">₹—</span></div>
+      <div class="item"><span>Ragi Malt</span><span class="price">₹—</span></div>
+      <div class="item"><span>Buttermilk</span><span class="price">₹—</span></div>
+      <div class="item"><span>Tea</span><span class="price">₹—</span></div>
+    </div>
+  </div>
+  <p class="note">Prices can be updated before publishing.</p>
+</section>
+
+<section id="about" class="about">
+  <div class="about-grid">
+    <div><div class="section-title" style="text-align:left"><h2>Made Like Home ❤️</h2></div>
+      <p>At Hommies Kitchen, we serve fresh vegetarian food prepared with homestyle care. Whether you want a quick tiffin, a filling meal or an evening snack, we’re here to make your food time better.</p>
+      <div class="features">
+        <div class="feature">🌱<strong>100% Veg</strong>Vegetarian menu</div>
+        <div class="feature">🍳<strong>Fresh</strong>Made with care</div>
+        <div class="feature">📦<strong>Delivery</strong>Order conveniently</div>
+      </div>
+    </div>
+    <div class="about-box"><h3>📍 Visit / Order</h3><p><strong>Nekar Nagar, Hubli, Karnataka</strong></p><p style="margin-top:8px">For orders and availability, contact us on WhatsApp.</p><a class="btn whatsapp" style="margin-top:18px" href="https://wa.me/918951414917" target="_blank">WhatsApp: 8951414917</a></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-title"><h2>Contact Hommies Kitchen</h2><p>We’d love to serve you!</p></div>
+  <div class="contact">
+    <div class="contact-card"><h3>📱 Call / WhatsApp</h3><p><a href="tel:+918951414917">8951414917</a></p><p style="margin-top:6px"><a href="https://wa.me/918951414917" target="_blank">Start WhatsApp order →</a></p></div>
+    <div class="contact-card"><h3>📍 Location</h3><p>Nekar Nagar, Hubli, Karnataka</p><p style="margin-top:6px"><a href="https://www.google.com/maps/search/?api=1&query=Hommies+Kitchen+Nekar+Nagar+Hubli" target="_blank">Open in Google Maps →</a></p></div>
+  </div>
+</section>
+</main>
+
+<footer><p>© 2026 Hommies Kitchen ❤️ · Fresh Vegetarian Food · Hubli</p></footer>
+<a class="float" href="https://wa.me/918951414917?text=Hi%20Hommies%20Kitchen%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" aria-label="WhatsApp">◉</a>
+</body>
+</html>
